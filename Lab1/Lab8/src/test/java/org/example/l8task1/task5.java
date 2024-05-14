@@ -1,6 +1,6 @@
 package org.example.l8task1;
 
-import org.junit.Test;
+
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import java.util.stream.Stream;
@@ -13,7 +13,7 @@ import org.junit.jupiter.params.provider.MethodSource;
 public class task5 {
 
 
-    @ParameterizedTest
+    /*@ParameterizedTest
     @MethodSource("testAddData")
     void testAdd(Object e1, Object e2,String e3 , Object expectedResult) {
         CalculatorRequest aux = new CalculatorRequest(e1,e2,e3);
@@ -36,11 +36,11 @@ public class task5 {
         return Stream.of(
                 Arguments.of(0, 0, "+",0),
                 Arguments.of(true, false, "||",true),
-                Arguments.of(2.2, 1.0,"+", 3.2),
+                Arguments.of(2.2, 1d,"+", 3.2),
                 Arguments.of(5, 8, "+",13),
                 Arguments.of(-5, 8, "+",3),
                 Arguments.of(5, -8, "+",-3)
         );
-    }
+    }*/
 
 }

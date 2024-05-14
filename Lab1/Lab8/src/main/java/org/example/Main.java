@@ -8,7 +8,7 @@ import java.sql.Statement;
 
 public class Main {
     public static void main(String[] argv){
-        creaza_tabel();
+
     }
     public static void creaza_tabel(){
         try (Connection connection = DriverManager.getConnection("jdbc:mariadb://localhost:3306/lab_pao", "root", "stefan")) {
