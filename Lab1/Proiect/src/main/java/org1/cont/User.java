@@ -10,9 +10,21 @@ import java.util.Objects;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+/**
+ * Abstractizarea unui user
+ * Fiecare mostenitor al acestei clase va avea comenzi permise si interzice, completand atributele interne
+ */
 abstract public class User {
-    static Map<String, Command> comenzi;
-    static Map<String, Boolean> comenzi_interzise;
+    Map<String, Command> comenzi;
+    Map<String, Boolean> comenzi_interzise;
+
+    /**
+     *
+     * @param arg
+     * Parametrul este despartit in cuvinte separata prin spatiu sau expresii delimitate de ""
+     * @throws ComandaInexistenta in cazul in care nu exista comanda
+     * @throws ComandaInterzisa in cazul in care userul nu are drepturile suficiente pentru a rula o comanda
+     */
     public void command(String arg) {
         ArrayList<String> splited1 = new ArrayList<>();
         Matcher m = Pattern.compile("([^\"]\\S*|\".+?\")\\s*").matcher(arg);

@@ -1,5 +1,8 @@
 package org1.Containers;
 
+/**
+ * Clasa care retine obiecte sub forma elementelor din tabelul Song
+ */
 public class Song {
     int an, id;
     String nume, autor;

@@ -1,5 +1,9 @@
 package org1.Containers;
 
+/**
+ *
+ * Clasa care retine obiecte sub forma elementelor din tabelul Playlist
+ */
 public class Playlist {
     String nume;
     int id;

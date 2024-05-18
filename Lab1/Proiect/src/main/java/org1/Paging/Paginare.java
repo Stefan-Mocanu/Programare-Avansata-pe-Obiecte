@@ -6,6 +6,13 @@ import java.util.Scanner;
 import static java.lang.Math.ceil;
 import static java.lang.Math.min;
 
+/**
+ * Poate itera printr-o lista de T si sa afiseze in pagini de nrRezultatePagina elemente
+ * Schimbarea nrRezultatePagina va afecta cate obiecte vor fi afisate pe o pagina
+ * Pentru a utiliza aceata clasa se creaza un obiect de tip Paginare si se apeleaza functia afisare
+ * @param <T> de preferabil functia toString din T sa afiseze continutul lui T, si nu Hash value sau adresa de memorie
+ *
+ */
 public class Paginare<T> {
     public static int nrRezultatePagina = 3;
     List<T> deAfisat;
@@ -23,6 +30,7 @@ public class Paginare<T> {
         }
         return x;
     }
+
     public void afisare(){
         int index = 1;
         int pagina = 1;

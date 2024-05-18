@@ -2,6 +2,9 @@ package org1.Containers;
 
 import java.util.Objects;
 
+/**
+ * Clasa care retine obiecte sub forma elementelor din tabelul Audit
+ */
 public class AuditCont {
     int id;
     String command, succes;
