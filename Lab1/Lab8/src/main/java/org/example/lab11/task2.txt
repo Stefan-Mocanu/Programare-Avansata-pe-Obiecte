@@ -1,0 +1,16 @@
+Pentru 10 elemente Metoda1 a rulat in 17 milisecunde  |
+Pentru 10 elemente Metoda2 a rulat in 3 milisecunde   |
+Pentru 10 elemente Metoda3 a rulat in 2 milisecunde   |--> in acest caz dureaza mai mult crearea threadurilor decat executarea in sine
+Pentru 10 elemente Metoda4 a rulat in 0 milisecunde
+Pentru 1000 elemente Metoda1 a rulat in 11 milisecunde   --> aceasta metoda trece de 2 ori prin toate elementele (o data cand calculeaza subsirurile, si o data cand calculeaza patratele)
+Pentru 1000 elemente Metoda2 a rulat in 7 milisecunde
+Pentru 1000 elemente Metoda3 a rulat in 2 milisecunde
+Pentru 1000 elemente Metoda4 a rulat in 8 milisecunde
+Pentru 10000 elemente Metoda1 a rulat in 34 milisecunde
+Pentru 10000 elemente Metoda2 a rulat in 20 milisecunde
+Pentru 10000 elemente Metoda3 a rulat in 6 milisecunde
+Pentru 10000 elemente Metoda4 a rulat in 52 milisecunde
+Pentru 10000000 elemente Metoda1 a rulat in 15990 milisecunde
+Pentru 10000000 elemente Metoda2 a rulat in 15568 milisecunde
+Pentru 10000000 elemente Metoda3 a rulat in 1446 milisecunde
+Pentru 10000000 elemente Metoda4 a rulat in 28474 milisecunde
