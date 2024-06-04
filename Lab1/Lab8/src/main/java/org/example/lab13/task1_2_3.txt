@@ -1,0 +1,21 @@
+Task 1
+Se afiseaza:
+1
+5
+Obiectul a este declarat cu tipul superclasei A, iar atributul static B.a nu suprascrie A.a.
+Astfel a este initializat cu clasa B, iar la a.a++ se actualizeaza A.a, tipul declarat al lui a.
+
+Task 2
+Se afiseaza:
+C
+D 1
+E
+La crearea obiectului de tipul E, se apeleaza mai intai constructorul parametrizat al lui D, care la randul lui apeleaza
+constructorul fara parametrii/default al clasei C afisandu-se mai intai C apoi D 1 si E
+
+Task 3
+Se afiseaza:
+2
+3
+Intr-un try{....} [catch(....){....}] finally{....}
+codul din finally este executat indiferent de ceea ce se intampla in blocurile de cod pentru try, respectiv catch
